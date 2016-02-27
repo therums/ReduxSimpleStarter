@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-// define the component
-const SearchBar = () => {
-	return <input />;
+// the functional component to a class component
+// class (name of component) and extends to react functionality
+// must always render or will error
+class SearchBar extends Component {
+	render() {
+		return <input />;
+	}
 }
 
 // now to render to the html
